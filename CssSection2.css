@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+body {
+    background-color: #FFFDF4;
+    font-family: Instrument Serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.header {
+    font-family: Instrument Serif;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin: 4% 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Các ảnh nằm ngang với nhau */
+}
+
+.main-left {
+    width: 48%;
+    margin-top: 5%;
+
+}
+
+.floral,
+.decor,
+.hair,
+.lighting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-left img {
+    width: 100%;
+    height: auto;
+    max-height: 45%;
+    transition: transform 0.3s ease;
+
+}
+
+
+.main-left i {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left h3 {
+
+    font-family: Instrument Serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.main-left p {
+
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.main-right img {
+    width: 100%;
+    height: auto;
+}
+
+.main-right {
+    width: 48%;
+    margin-top: 2%;
+}
+
+.content {
+    display: none;
+    width: 90%;
+}
+
+.content.active {
+    display: block;
+}
+
+/* Responsive design for smaller screens (e.g., phones) */
+@media screen and (max-width: 768px) {
+
+    .main-left,
+    .main-right {
+        width: 100%;
+        margin: 2% 0;
+    }
+}

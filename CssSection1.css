@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFDF4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container {
+    padding: 70px, 194px, 30px, 194px;
+}
+
+.header {
+    width: 519px;
+    height: 154px;
+    padding-bottom: 30px;
+}
+
+.header h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #374639;
+
+}
+
+.header p {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3F514B;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.vinyasa {
+    margin-right: 2%;
+    color: #3F514B;
+}
+
+.vinyasa p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.vinyasa p del {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.vinyasa p strong {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.vinyasa span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.vinyasa .content {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.vinyasa3 .content {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+img {
+    width: 100%;
+}
+@media (max-width: 805px) {
+    .container {
+        padding: 30px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .vinyasa {
+        margin-right: 0;
+        margin-bottom: 20px; /* Add space between vinyasa elements */
+    }
+}
