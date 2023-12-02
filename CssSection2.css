@@ -48,13 +48,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    line-height: 58px;
+    height: 58px;
+    margin: 0px;
 }
-
+hr{
+    margin: 0px;
+}
 .main-left img {
     width: 100%;
     height: auto;
     max-height: 45%;
+    margin-bottom: 20px;
 }
 
 
