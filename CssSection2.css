@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
-body{
+
+body {
     font-family: Instrument Serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#FFF9F5;
+    background-color: #FFF9F5;
 }
 
 .header {
@@ -17,7 +18,8 @@ body{
     letter-spacing: -0.01em;
     margin: 4% 0;
 }
-.title{
+
+.title {
     font-family: Instrument Serif;
     font-size: 58px;
     font-weight: 400;
@@ -52,9 +54,14 @@ body{
     height: 58px;
     margin: 0px;
 }
-hr{
+
+hr {
     margin: 0px;
+    height: 0.15px;
+    background-color: lightgray;
+    border: none;
 }
+
 .main-left img {
     width: 100%;
     height: auto;
@@ -64,10 +71,13 @@ hr{
 
 
 .main-left i {
-    font-size: 24px;
+    font-size: 15px; 
+    line-height: 40px; 
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 0em;
+    color: #462B20;
 }
 
 .main-left h3 {
